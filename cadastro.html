@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Eficaz</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/eficaz.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+    <a class="navbar-brand" href="index.html"><img src="imagem/eficaz_logo_black.png" class="img-fluid"></a>
+</div>
+
+<div id="menu">
+    <div class="row">
+        <div class="col-12">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" href="cadastro.html" >Cadastro</a>
+                <a class="nav-link active" href="listacadastrado.html" >Lista Cadastrado</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title"> <i>Cadastro</h5></i>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="table-responsive table-space">
+            
+                            <tbody>
+                                <form action="" name="Cadastro" method="get">
+                                    <div>
+                                    <label for="inlinelabel1"><b><i>Email pessoal do candidato:</label></i></b>
+                                    <input type="email"  id="inlineinput1" value=""required  placeholder="Digite seu Email" maxlength="50" >
+                                    
+                                        
+                                    <label for="inlinelabel2"><b> <i>Nome completo:</label></i></b>
+                                    <input type="text" id="inlineinput2" value="" required placeholder="Digite seu Nome" maxlength="50"><br><br><br>
+                                    
+                                    <label for="fname"> <b><i>Email:</label></i></b>
+                                    <input type="email" id="email" value=""required  placeholder="Digite seu Email" maxlength="50">
+                                    
+                                    <label for="inlinelabel3"> <b><i>Rua:</label></i></b>
+                                    <input type="text" id="inlineinput3" value=""required placeholder="Digite sua Rua" ><br><br><br>
+                                    
+                                    <label for="inlinelabel14"> <b><i>Complemento:</label></i></b>
+                                    <input type="text" id="inlineinput4" value=""required placeholder="Complemento">
+                                    
+                                    <label for="inlineilabel5"><i><b>CEP:</label></i></b>
+                                    <input type="text" id="inlineinput5" name="inlineinput5" value="" required="" placeholder="Digite seu CEP"><br><br><br>
+                                    
+                                   <label for="inlinelabel6"><i><b>Telefone (DDD):</label> </i></b>
+                                   <input type="tel" id="inlineinput6" value=""required placeholder="Digite seu Telefone" >
+                                    
+                                    <label for="inlinelabel7"><i><b>Nº:</label></i></b>
+                                    <input type="text" id="inlineinput7" value=""required maxlength="5" placeholder="Digite seu Número"><br><br><br>
+                                    
+                                    <label for="inlinelabel8"><i><b>Bairro:</label></i></b>
+                                    <input type="text" id="inlineinput8" value=""required maxlength="50" placeholder="Digite seu Bairro">
+                                    
+                                    <label for="inlinelabel9"><i><b>Cidade:</label></i></b>
+                                    <input type="text" id="inlineinput9" value=""required maxlength="50" placeholder="Digite sua Cidade" required>
+                                    
+                                    <label for="inlineinput10"><b><i>UF:</label></b></i>
+                                    <select name="UF" id="UF">
+                                        <option value="acre">AC</option>
+                                        <option value="alagoas">AL</option>
+                                        <option value="amapa">AP</option>
+                                        <option value="amazonas">AM</option>
+                                        <option value="bahia">BA</option>
+                                        <option value="ceara">CE</option>
+                                        <option value="distrito federal">DF</option>
+                                        <option value="espirito santo">ES</option>
+                                        <option value="goias">GO</option>
+                                        <option value="maranhao">MA</option>
+                                        <option value="mato grosso">MT</option>
+                                        <option value="mato grosso do sul">MS</option>
+                                        <option value="minas gerais">MG</option>
+                                        <option value="para">PA</option>
+                                        <option value="paraiba">PB</option>
+                                        <option value="parana">PR</option>
+                                        <option value="pernambuco">PE</option>
+                                        <option value="piaui">PI</option>
+                                        <option value="rio de janeiro">RJ</option>
+                                        <option value="rio grande do norte">RN</option>
+                                        <option value="rio grande do sul">RS</option>
+                                        <option value="rondonia">RO</option>
+                                        <option value="roraima">RR</option>
+                                        <option value="santa catarina">SC</option>
+                                        <option value="sao paulo">SP</option>
+                                        <option value="sergipe">SE</option>
+                                        <option value="tocantins">TO</option><br><br>
+                                    </select><br><br>
+                                    <input type="submit" value="Cadastrar"></div><br><br><br>
+                                  </form> 
+                                  <script type="text/javascript">
+                                    $(document).ready(function(){
+                                        $("#inlineinput5").mask("99.999-999");
+                                    });
+                                </script>
+                                <script type="text/javascript">
+                                    $(document).ready(function(){
+                                        $("#inlineinput6").mask("(99) 9999-9999");
+                                    });
+                                </script>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
